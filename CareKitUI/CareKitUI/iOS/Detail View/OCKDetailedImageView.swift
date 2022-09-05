@@ -51,7 +51,7 @@ class OCKDetailedImageView: OCKView {
 
     let imageView: UIImageView = {
         let imageView = UIImageView()
-        imageView.contentMode = .scaleAspectFill
+        imageView.contentMode = .scaleAspectFit
         return imageView
     }()
 
